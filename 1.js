@@ -32,12 +32,17 @@
 
 // 3. average
 
-// const numbers = [5, 10, 15, 20];
-// const average = numbers.reduce((acc, curr) => acc + curr, 0) / numbers.length;
+// let numbers = [2, 4, 6 ,8, 10]
 
-// console.log("Average:", average);
+// let sum = 0;
 
-// let average = numbers.reduce((iter,adds) => iter + adds,0) 
+// for (let i = 0; i < numbers.length; i++) {
+//     sum += numbers[i] 
+// }
+
+// let average = sum / numbers.length;
+
+// console.log(average)
 
 // ====================================
 
